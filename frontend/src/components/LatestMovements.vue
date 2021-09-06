@@ -2,7 +2,7 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <v-card>
+          <v-card outlined>
             <v-card-title>Letzte Bewegungen</v-card-title>
             <v-data-table
                 width="100vw"

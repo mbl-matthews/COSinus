@@ -1,15 +1,24 @@
 <template>
-  <hello-world />
+  <v-row>
+    <v-col cols="6">
+      <LatestMovements/>
+    </v-col>
+    <v-col cols="6">
+      <LatestOpenPenalties/>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import LatestMovements from '../components/LatestMovements'
+  import LatestOpenPenalties from "@/components/LatestOpenPenalties";
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      LatestMovements,
+      LatestOpenPenalties,
     },
   }
 </script>
