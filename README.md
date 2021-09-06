@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/mbl-matthews/COSinus/master/frontend/src/assets/cosinus_logo_little_white.png "Logo")
+
 # COSinus
 
 COSinus stands for "Club Organization Software" and is a software meant to simplify the organization of accounting of small clubs.
