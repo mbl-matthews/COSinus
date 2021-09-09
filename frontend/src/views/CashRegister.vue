@@ -1,10 +1,15 @@
 <template>
- <v-container></v-container>
+  <RegisterMovements/>
 </template>
 
 <script>
+import RegisterMovements from "../components/RegisterMovements";
+
 export default {
-  name: "Register"
+  name: "Register",
+  components: {
+    RegisterMovements
+  }
 }
 </script>
 
